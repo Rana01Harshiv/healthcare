@@ -27,11 +27,11 @@ class AdvanceCustomAlert extends StatelessWidget {
                     SizedBox(
                       height: 20,
                     ),
-                    RaisedButton(
+                    TextButton(
                       onPressed: () {
                         Navigator.of(context).pop();
                       },
-                      color: Colors.red,
+                      //color: Colors.red,
                       child: Text(
                         'Okay',
                         style: TextStyle(color: Colors.white),

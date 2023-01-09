@@ -255,11 +255,11 @@ class _login_pageState extends State<login_page> {
                               Container(
                                 width: size.width * 0.8,
                                 margin: EdgeInsets.only(left: 10,right: 10,top: 10 ,bottom: 5),
-                                child: RaisedButton(
-                                  shape: StadiumBorder(),
+                                child: TextButton(
+                                 /* shape: StadiumBorder(),
                                   padding: EdgeInsets.symmetric(
                                       horizontal: 40, vertical: 15),
-                                  color: kPrimaryColor,
+                                  color: kPrimaryColor,*/
                                   onPressed: () async {
                                     if (status == false) {
                                       showDialog(

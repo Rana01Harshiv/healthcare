@@ -154,11 +154,11 @@ class _ForgetPasswordState extends State<ForgetPassword> {
                     Container(
                       width: size.width * 0.8,
                       margin: EdgeInsets.all(10),
-                      child:RaisedButton(
-                        shape: StadiumBorder(),
+                      child:TextButton(
+                        /*shape: StadiumBorder(),
                         padding: EdgeInsets.symmetric(
                             horizontal: 40, vertical: 15),
-                        color: kPrimaryColor,
+                        color: kPrimaryColor,*/
                         onPressed: ()  async {
                           if (status == false) {
                             showDialog(
